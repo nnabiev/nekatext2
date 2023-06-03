@@ -281,8 +281,129 @@ p {
   }
 }
 @media (max-width: 500px) {
-  .p1, .p2, .p3 {
+  .karta {
+    display: grid;
+    grid-template-columns: 450px;
+  }
+  .test3 {
+    margin-left: -70px;
+    font-size: 13px;
+  }
+  .test3 h1 {
+    margin-left: 0px;
+    text-align: center;
+  }
+}
+.karta1 {
+  background: #F7F7F7;
+  padding: 10px;
+}
+
+.container400 {
+  width: 75%;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+.test5 p {
+  width: 310px;
+}
+
+.container500 {
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 100px;
+  display: flex;
+}
+
+.text8 {
+  border: 1px solid black;
+}
+
+.test7 p {
+  color: grey;
+}
+
+.test7 h3 {
+  margin-left: 25px;
+  margin-top: 10px;
+}
+
+.imh1, .imh2 {
+  position: relative;
+  right: 200px;
+}
+
+@media (max-width: 1400px) {
+  .container500 {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+}
+.karta3 {
+  background: #CEC4BC;
+  padding: 10px;
+}
+
+.container600 {
+  width: 70%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-top: 100px;
+}
+
+.test10 {
+  width: 500px;
+  font-size: 20px;
+  margin-left: 190px;
+}
+
+.test11 {
+  margin-left: 300px;
+  margin-top: 50px;
+}
+
+@media (max-width: 1200px) {
+  .container600 {
+    display: grid;
+    grid-template-columns: 100%;
+    width: 100%;
+  }
+  .test10 {
+    font-size: 10px;
+    width: 200px;
     position: relative;
-    right: 70px;
+    right: 190px;
+  }
+  .test11 {
+    position: relative;
+    right: 300px;
+  }
+}
+.container700 {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 10px;
+}
+
+.test13 {
+  margin-left: 300px;
+  margin-top: 30px;
+}
+
+@media (max-width: 1200px) {
+  .container700 {
+    position: relative;
+    display: grid none;
+    grid-template-columns: 100%;
+    font-size: 10px;
+    right: 50px;
+  }
+  .test13 {
+    position: relative;
+    right: 270px;
   }
 }/*# sourceMappingURL=style.css.map */
