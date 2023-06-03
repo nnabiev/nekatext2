@@ -1,0 +1,289 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.box
+{
+    background-color: rgb(245, 243, 241);
+    width: 100%;
+}
+.container1
+{
+    width: 80%;
+    height: 40px;
+    align-items: center;
+    margin: 0 auto;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 20% 50%;
+}
+ul
+{
+    display: grid;
+    list-style: none;
+    grid-gap: 34px;
+    align-items: center;
+    grid-template-columns: repeat(6, 1fr);
+    justify-content: space-between;
+}
+span
+{
+    background-color: rgb(34, 31, 31);
+    color: aliceblue;
+    justify-content: center;
+    height: 30px;
+    width: 90px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+.second
+{
+    display: grid;
+    grid-template-columns: 50%  50%;
+}
+
+.three h5
+{
+    color: black;
+}
+.three h3
+{
+    width: fit-content;
+    border-radius: 6px;
+}
+.four img
+{
+    width: 100%;
+    height: 60%;
+}
+@media (max-width:950px) {
+    .container1
+{
+    width: 90%;
+    justify-content: space-between;
+    grid-template-columns: 20% 68%;
+}
+ul{
+    grid-template-columns: 90px;
+}
+.two{
+    justify-self: end;
+
+}
+ul li{
+    display: none;
+}
+}
+.ten 
+{
+    background-color: antiquewhite;
+    height: 90%;
+}
+.text1
+{
+    width: 70%;
+    margin: 90px auto;
+}
+.text1 h1
+{
+    font-size: 50px;
+}
+.but
+{
+    background-color: rgb(244, 221, 190);
+    border-radius: 7px;
+    height: 30px;
+    width: 90px;
+    border: none;
+}
+.third
+{
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+.text2
+{
+    text-align: center;
+}
+.text3
+{
+
+    width: 60%;
+    text-align: center;
+}
+.photo
+{
+    display: grid;
+    grid-template-columns: 30% 60%;
+}
+.photo3
+{
+    display: grid;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    align-items: center;
+}
+.four
+{
+    background-image: url(./third.png);
+    height: 600px;
+    color: rgb(45, 39, 39);
+}
+.four h4 
+{
+    position: relative;
+    position: absolute;
+    right: 15%;
+    margin-top: 25%;
+}
+.four h5
+{
+    position: relative;
+    position: absolute;
+    right: 7.5%;
+    margin-top: 25%;
+}
+.five
+{
+    text-align: center;
+    margin-top: 30px;
+}
+.six
+{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    width: 90%;
+    margin: 0 auto;
+    height: 300px;
+}
+.text10
+{
+    text-align: center;
+  
+}
+.text11
+{
+    text-align: center;
+   
+}
+.text12
+{
+    text-align: center;
+   
+}
+@media  (max-width:950px){
+    .second{
+        grid-template-columns: 100%;
+        text-align: center;
+        color: white;
+        background-color: black;
+    }
+    .ten{
+        background-color: black;
+    }
+    .third{
+        background-color: black;
+        color: white;
+    }
+    .second button{
+        background-color: black;
+        color: white;
+        border: 2px solid white;
+    }
+    .box{
+        background-color: grey;
+    }
+    .foto1
+    {
+       position: relative;
+       bottom: 60px;
+        grid-template-columns: 100%;
+    }
+    .six
+    {
+        grid-template-columns: 300px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+    }
+    .text10 h5, .text11 h5,.text12 h5{
+        width: 300px;
+    }
+}
+.test1 h5{
+    margin-top: -100px;
+    margin-left: 600px;
+}
+.test1 p{
+    margin-left: 600px;
+} 
+@media (max-width:950px) {
+.img1{
+    margin-top: 340px;
+}
+}
+.karta{
+    background-color: grey;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+
+}
+.container200{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+p{
+    width: 380px;
+}
+.svgg1{
+  margin-left: 100px;
+margin-top: 100px;
+}
+.svg2{
+    margin-top: 40px;
+}
+.svg3{
+    margin-left: 470px;
+    margin-bottom: 30px;
+}
+.svg4{
+    margin-left: 370px;
+}
+@media (max-width:960px) {
+    .karta{
+        display: grid;
+      grid-template-columns:570px ;
+      text-align: center;
+    }
+    .svgg1{
+       position: relative;
+       right: 100px;
+    }
+.svg4{
+  margin-top: -190px;
+}
+}
+@media (max-width:618px) {
+    .svg3 , .svg4{
+   position: relative;
+   right:100px;
+
+    }
+}
+@media (max-width:550px) {
+    .svg3 , .svg4{
+        margin-top:100px ;
+        margin-left: 100px;
+         }
+}
+@media (max-width:500px) {
+.p1 ,.p2,.p3{
+   position: relative;
+   right: 70px;
+}
+}
